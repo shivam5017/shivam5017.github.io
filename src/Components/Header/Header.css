@@ -1,0 +1,39 @@
+
+.light {
+  --clr-bg: #fcfcfc;
+  --clr-bg-alt: #fff;
+  --clr-fg: black;
+  --clr-fg-alt: black;
+  --clr-primary: #2978b5;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dark {
+  --clr-bg: black;
+  --clr-bg-alt: black;
+  --clr-fg: #bdbddd;
+  --clr-fg-alt: #cdcdff;
+  --clr-primary: #90a0d9;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+.header {
+  height: 8em;
+  max-width: 110%;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  background-color: var( --clr-bg);
+  gap: 25%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 6em;
+  }
+}
