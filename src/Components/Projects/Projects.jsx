@@ -197,9 +197,56 @@ in Louisville, Kentucky, that specializes in fried chicken.
                   </span>
                 </a>
               </div>
+              {/* phonebook */}
+            
             </div>
           </div>
         </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/110033165/233777385-1fe343c3-e8e6-45ae-bab6-1e8f7aa512e9.png"
+                  alt="phonebook"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Phone Book</h2>
+              <p>
+              Phone Book is a website used to store your contacts safe and secure.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <DiCss3 />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://ph0neb00k.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/shivam5017/phone-book/tree/master/Phone-book-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </>
   );
