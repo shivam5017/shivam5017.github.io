@@ -57,7 +57,7 @@ export const Contact = () => {
           <input type="email" name="email" placeholder="Email" />
 
           <textarea name="message" placeholder="Message . . ." />
-          <input type="submit" value="Send" style={{borderRadius:10,marginTop:10}}/>
+          <input type="submit" value="Send" style={{borderRadius:10,marginTop:9}}/>
         </form>
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
