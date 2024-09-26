@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.24dd7081.css",
-    "main.js": "/static/js/main.23647dbe.js",
+    "main.js": "/static/js/main.f9461578.js",
     "static/media/Fw20_1002_Shivam-Malik-Resume.pdf": "/static/media/Fw20_1002_Shivam-Malik-Resume.c888f8db32ea25ad0168.pdf",
     "index.html": "/index.html",
     "main.24dd7081.css.map": "/static/css/main.24dd7081.css.map",
-    "main.23647dbe.js.map": "/static/js/main.23647dbe.js.map"
+    "main.f9461578.js.map": "/static/js/main.f9461578.js.map"
   },
   "entrypoints": [
     "static/css/main.24dd7081.css",
-    "static/js/main.23647dbe.js"
+    "static/js/main.f9461578.js"
   ]
 }
